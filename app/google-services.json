@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "410539870292",
+    "project_id": "login-register-a521e",
+    "storage_bucket": "login-register-a521e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410539870292:android:a61c6acb2cf026a640c5c1",
+        "android_client_info": {
+          "package_name": "com.vvit.ummm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410539870292-jhaffcdu3521qou92ha7s1e8538udkn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YmRr8PW7gn25v_P-PLSrcjJwyQrCMjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410539870292-jhaffcdu3521qou92ha7s1e8538udkn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

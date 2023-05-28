@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="email"
+        android:id="@+id/_user_edit_text"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="250dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/_pass_edit_text"
+        android:hint="password"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_progressbar_login"
+        android:visibility="gone"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/_login_button"
+        android:background="@color/purple_200"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/_register_now"
+        android:text="click here to register"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+</LinearLayout>

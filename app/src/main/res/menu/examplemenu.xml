@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/_view"
+        android:title="view"
+        app:showAsAction="never"/>
+
+<item
+    android:id="@+id/_update"
+    android:title="update"
+    app:showAsAction="never">
+
+
+    <menu>
+
+        <item
+            app:showAsAction="never"
+            android:id="@+id/_speed"
+            android:title="speed linlit"/>
+
+
+
+        <item app:showAsAction="never"
+            android:id="@+id/_update_phn"
+            android:title="phone"/>
+
+
+
+        <item android:title="name"
+            android:id="@+id/_update_name"
+            app:showAsAction="never"/>
+
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/_logout"
+        android:title="logout"
+        app:showAsAction="never"/>
+
+</menu>
